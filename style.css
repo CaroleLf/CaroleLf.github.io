@@ -303,7 +303,6 @@ section{
 
 
 .portfolio__popup-content {
-	grid-template-columns: repeat(auto-fill,1fr);
 	align-items: center;
 	column-gap: 3rem;
 	display: flex;
@@ -491,6 +490,24 @@ section{
 		justify-content: center;
 		padding-top: 1rem;
 	}
+
+.portfolio__popup-inner {
+	background-color: var(--box-color);
+	width: 500px;
+	border-radius: .5rem;
+	padding : 2.5rem;
+	position: relative;
+}
+
+
+.portfolio__popup-content {
+	align-items: center;
+	column-gap: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+
+
 }
 
 @media (max-width: 500px){
