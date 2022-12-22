@@ -187,7 +187,7 @@ section{
 
 .work_container {
 	display: grid;
-	grid-template-columns: repeat(3,330px) ;
+	grid-template-columns: repeat(auto-fill,330px) ;
 	gap : 1.8rem;
 	justify-content: center;
 	padding-top: 1rem;
@@ -303,7 +303,7 @@ section{
 
 
 .portfolio__popup-content {
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(auto-fill,1fr);
 	align-items: center;
 	column-gap: 3rem;
 	display: flex;
@@ -350,7 +350,7 @@ section{
 
 .More{
 	display: grid;
-	grid-template-columns: repeat(3,330px) ;
+	grid-template-columns: repeat(auto-fill,330px) ;
 	gap : 1.8rem;
 	justify-content: center;
 	padding-top: 1rem;
@@ -441,6 +441,8 @@ section{
 	.scroll-down{
 		display: none;
 	}
+
+	
 }
 
 @media (max-width: 990px){
@@ -468,11 +470,39 @@ section{
 	.navlist.open{
 		right: 0;
 	}
+	.work_container {
+		display: grid;
+		grid-template-columns: repeat(2,330px) ;
+		gap : 1.8rem;
+		justify-content: center;
+		padding-top: 1rem;
+	}
 }
 
-@media (max-width: 680px){
+@media (max-width: 850px){
 	.me-img img{
 		width: 100%;
 		height: auto;
+	}
+	.work_container {
+		display: grid;
+		grid-template-columns: repeat(2,330px) ;
+		gap : 1.8rem;
+		justify-content: center;
+		padding-top: 1rem;
+	}
+}
+
+@media (max-width: 500px){
+	.me-img img{
+		width: 100%;
+		height: auto;
+	}
+	.work_container {
+		display: grid;
+		grid-template-columns: repeat(1,330px) ;
+		gap : 1.8rem;
+		justify-content: center;
+		padding-top: 1rem;
 	}
 }
