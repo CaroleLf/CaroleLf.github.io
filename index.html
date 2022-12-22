@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portoflio</title>
+
+	<!---custom css link--->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+	<!---boxicons link--->
+	<link rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <!---remixicons link--->
+	<link href='https://css.gg/css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<script src="https://kit.fontawesome.com/2b4594a491.js" crossorigin="anonymous"></script>
+    <!---google fonts link--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<a href="#" class="logo"></a>
+		<ul class="navlist">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#work">Projects</a></li>
+			<li><a href=".contact">Contact</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<section class="me">
+		<div class="me-text">
+			<h4>Etudiante en BUT Informatique</h4>
+			<h1>Le Flohic Carole</h1>
+		</div>
+		<div class="me-Personal">
+			<p>
+				Je suis passionnée par ce domaine et je recherche une alternance en développement full-stack, 
+				pour confronter mes connaissances théoriques aux réalités du terrain, pour septembre 2023.</p>
+			<p> <br>
+				Je suis dynamique, positive, déterminée et j'aime travailler en équipe, 
+				ayant été habitué depuis mon enfance grâce à ma passion pour le football que j'ai pratiqué en club pendant 11 ans.
+			</p>	
+		</div>
+	</section>
+
+	<div class="icons">
+		<a href="https://github.com/CaroleLf"><i class="ri-github-line"></i></a>
+		<a href="https://www.linkedin.com/in/carole-le-flohic-11223a213/"><i class="ri-linkedin-line"></i></a>
+	</div>
+
+	<div class="scroll-down">
+		<a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+	</div>
+	<main>
+		<section class="work section" id="work">
+			<h2 data-heading="My Portoflio" class="section_title">Recent Works</h2>
+			<div class="work_filters">
+				<span class="work_item active-work" data-filter="all"> All</span>
+				<span class="work_item" data-filter=".java">Java</span>
+				<span class="work_item" data-filter=".python"> Python</span>
+				<span class="work_item" data-filter=".c"> C</span>
+			</div>
+			<div class="work_container container grid"> 
+				<div class="work__card mix python">
+					<img src="img/imageCaffePierre/primaryEnergy.png" alt="imageCaffePierre" class="work_img">
+					<h3 class="work_title"> Caffée Pierre </h3>
+					<span class="work__button"> Retour Experience 
+						<i class="uil uil-arrow-right work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title"> Caffée Pierre</h3>
+						<p class="details__description">Création d'une application en Python/Dash et une base de données, à partir de fichier csv contenant des données sur le rechauffement climatique </p>
+						<ul class="details__info">
+							<li>Created - <span> 2021 </span></li>
+							<li> Technologies - <span> Python/Dash</span></li>
+							<i class="fa-brands fa-python"></i>
+						</ul>
+					</div>
+				</div>
+				<div class="work__card mix c">
+					<img src="img/photoProject/miniShell.png" alt="imagePortfolio" class="work_img">
+					<h3 class="work_title"> Mini-Shell </h3>
+					<span class="work__button"> Retour Experience 
+						<i class="uil uil-arrow-right work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title"> Mini-Shell </h3>
+						<p class="details__description"> Création du version minime du Shell Linux</p>
+						<ul class="details__info">
+							<li>Created - <span> 2022 </span></li>
+							<li> Language - <span> C</span></li>
+							<i class="fa-solid fa-c"></i>
+						</ul>
+					</div>
+				</div>
+				<div class="work__card mix java">
+					<img src="img/photoProject/BloomFilter.png" alt="" class="work_img">
+					<h3 class="work_title"> Filtre de Bloom</h3>
+					<span class="work__button">Retour d'experience 
+						<i class="uil uil-arrow-right work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title">Filtre de Bloom</h3>
+						<p class="details__description">Implementation d'un filtre de bloom et d'un benchmark</p>
+						<p class="details__description">Structures de données utilisés : </p>
+						<ul class="details__description">
+							<li> LinkedList</li>
+							<li> Tableau Simple</li>
+							<li> ArrayList</li>
+						</ul>
+						<p class="details__description">Il fallait mesurer le temps d'ajouts dans pour l'ensemble des structures de données </p>
+						<p class="details__description">Les tests étaient éffectuées avec plusieurs nombres (100,1000,10000) </p>
+						<ul class="details__info">
+							<li>Created - <span> 2022 </span></li>
+							<li> Technologies - <span> Java </span></li>
+							<li><i class="fa-brands fa-java"></i></li>
+						</ul>
+					</div>
+				</div>
+				<div class="work__card mix java">
+					<img src="img/photoProject/lowatem-gui2.png" alt="" class="work_img">
+					<h3 class="work_title">Lowatem</h3>
+					<span class="work__button">Retour Experience 
+						<i class="uil uil-arrow-right work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<p class="details__description">
+							Codage des règles du jeu d'un jeu existant du nom de Lowatem
+						</p>
+						<p class="details__description">
+							Réalisation d’une IA dans le but d'affronter les IA des autres étudiants de l'IUT
+						</p>
+						<ul class="details__info">
+							<li>Created - <span> 2021 </span></li>
+							<li> Language - <span> Java</span></li>
+							<li><i class="fa-brands fa-java"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="portfolio__popup">
+			<div class="portfolio__popup-inner">
+				<div class="portfolio__popup-content grid">
+					<span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
+					<div class="pp__thumbnail">
+						<img src="img/imageCaffePierre/primaryEnergy.png" alt="" class="portfolio__popup-img">
+					</div>
+					<div class="portfolio__popup-info">
+						<div class="portfolio__popup-subtitle"> Featured - <span> Design</span>
+							<div class="portfolio__popup-body">
+									<h3 class="details__title"></h3>
+									<p class="details__description">fnossfdihsdhozeghosdgjiosdgjiosfjiossv</p>
+									<ul class="details__info">
+										<li>Created - <span> 2021 </span></li>
+										<li> Technologies - <span> Python/Dash</span></li>					
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="More">
+			<h2 class="section_title"><i class="fa-solid fa-arrow-right"></i>All my works<i class="fa-solid fa-arrow-left"></i></h2>
+		</div>
+	</main>
+		<div id="contact" >
+			<h2 class ="section_title">Contact </h2>
+			<div class="DiversContact">
+				<div class="contactExact">
+					<h3>Mon numéro :  <a href="tel:+33751624217"> +33 7 51 62 42 17</a> </h3>  
+				</div><br>
+				<div class="contactExact">
+					<h3>Mon adresse-mail : <a href="mailto:carole.56leflohic@gmail.com"> carole.56leflohic@gmail.com</a></h3>
+				</div><br>
+				<div class="contactExact">
+					<h3> Mon Linkedin : <a href="https://www.linkedin.com/in/carole-le-flohic-11223a213/"> Profil </a> </h3>
+				</div>
+		</div>
+	</div>
+	<!---scrollreveal effect--->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<!---MIXITUP FILTER --->
+	<script src="js/mixitup.min.js"></script>
+	<!---custom js link--->
+	<script src="js/script.js"></script>
+
+</body>
+</html>
