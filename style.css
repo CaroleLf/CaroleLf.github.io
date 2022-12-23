@@ -388,6 +388,33 @@ section{
 }
 
 
+/**** Scrollbar ****/
+
+::-webkit-scrollbar {
+	width: 0;
+	background: transparent;
+
+}
+
+.scrollbar {
+	position: fixed;
+	top : 0;
+	right: 0;
+	width: 15px;
+	height: 0;
+	opacity: 0;
+	background: linear-gradient(to top, #132a39 , #4d8a95  );
+}
+
+
+.clickScrollbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 100px;
+}
+
 
 @media (max-width: 1535px){
 	header{
