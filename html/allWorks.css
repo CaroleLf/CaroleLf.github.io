@@ -105,7 +105,7 @@ a {
 	padding: .25rem .75rem;
 	font-weight: 25px;
 	border-radius: .5rem;
-    padding: 2vw;
+	margin: 2vw;
 }
 
 
@@ -359,6 +359,10 @@ a {
 		gap : 1.8rem;
 		justify-content: center;
 		padding-top: 1rem;
+	}
+
+	.work_item{
+		margin: 4vw;
 	}
 }
 
