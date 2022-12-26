@@ -1,15 +1,19 @@
-@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
 
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Futura PT', sans-serif;
+	font-family: myPersonnalFont;
 	list-style: none;
 	text-decoration: none;
 
 }
 
+@font-face {
+	font-family: myPersonnalFont;
+	src : url(../font/coolvetica/coolvetica\ condensed\ rg.otf);
+}
 
 :root {
 	--z-fixed : 10;
