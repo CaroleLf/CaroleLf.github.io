@@ -338,18 +338,18 @@ section{
 
 
 .details__title {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 }
 
 .details__description {
-	font-size: .875rem;
+	font-size: 1.2rem;
 	margin-bottom: 2rm;
 }
 
 
-.details__info li {
-	margin-bottom: .75rem;
+.details__info li b{
+	margin-bottom: 1.2rem;
 	text-transform: capitalize;
 } 
 
