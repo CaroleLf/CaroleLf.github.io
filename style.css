@@ -7,7 +7,7 @@
 	font-family: myPersonnalFont;
 	list-style: none;
 	text-decoration: none;
-
+    max-width: 96vw;
 }
 
 @font-face {
