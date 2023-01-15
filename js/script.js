@@ -22,7 +22,6 @@ sr.reveal('.me-img',{delay:450, origin:'top'});
 sr.reveal('.icons',{delay:500, origin:'left'});
 sr.reveal('.scroll-down',{delay:500, origin:'right'});
 sr.reveal('.work', {delay:200,origin:'right'})
-sr.reveal('.More',{delay:100,origin:'left'});
 
 
 /***** MiXITUUP FILTER  **************************/
