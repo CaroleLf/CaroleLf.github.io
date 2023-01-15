@@ -4,19 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Portoflio</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
-	
 	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
 	<link rel="shortcut icon" href="img/logo.png" >
-
-
 	<link href='https://css.gg/css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 	<script src="https://kit.fontawesome.com/2b4594a491.js" crossorigin="anonymous"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -27,10 +23,10 @@
 	<header>
 		<a href="#" class="logo"></a>
 		<ul class="navlist">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#work">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a class="text-decoration-none" href="#">Home</a></li>
+			<li><a class="text-decoration-none" href="#">About</a></li>
+			<li><a class="text-decoration-none" href="#work">Projects</a></li>
+			<li><a class="text-decoration-none"href="#contact">Contact</a></li>
 		</ul>
 
 		<div class="bx bx-menu" id="menu-icon"></div>
@@ -42,15 +38,15 @@
 			<h1>Le Flohic Carole</h1>
 		</div>
 		<div class="me-Personal">
-			<p>Actuellement étudiante en 2ème année à l'IUT de Bordeaux</p>
-			<p>
+			<p class="m-0">Actuellement étudiante en 2ème année à l'IUT de Bordeaux</p>
+			<p class="m-0">
 				Je suis passionnée par le domaine de l'informatique et je recherche une alternance en développement full-stack, 
-				pour confronter mes connaissances théoriques aux réalités du terrain, pour septembre 2023.</p>
-			<p> <br>
+				pour confronter mes connaissances théoriques aux réalités du terrain, pour septembre 2023.</p> <br>
+			<p class="m-0"> 
 				Je suis dynamique, positive, déterminée et j'aime travailler en équipe, 
 				ayant été habitué depuis mon enfance grâce à ma passion pour le football que j'ai pratiqué en club pendant 11 ans.
-			</p><br>
-			<p>
+			</p> <br>
+			<p class="m-0">
 				Mes langages : 
 			</p><br>
 			<p>
@@ -64,6 +60,13 @@
 				<i class="fa-brands fa-php"></i>
 				<i> SQL</i>
 				<i> Bash </i>
+			</p>	
+			<p>
+				Mes frameworks : 
+			</p><br>
+			<p>
+				<i class="fa-brands fa-symfony"></i>
+				<i class="fa-brands fa-bootstrap"></i>
 			</p>	
 		</div>
 	</section>
@@ -84,8 +87,40 @@
 				<span class="work_item" data-filter=".java">Java</span>
 				<span class="work_item" data-filter=".python"> Python</span>
 				<span class="work_item" data-filter=".c"> C</span>
+				<span class="work_item" data-filter=".php"> PHP</span>
 			</div>
 			<div class="work_container container grid"> 
+				<div class="work__card mix php">
+					<img src="../img/photoProject/Rees.png" alt="imagePortfolio" class="work_img">
+					<h3 class="work_title"> Site de séries</h3>
+					<span class="work__button"> En Savoir Plus 
+						<i class="uil uil-arrow-left work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title"> Site de séries </h3>
+						<p class="details__description"> Création d'un site de séries en php accompagné du framework symfony</p>
+						<h3 class="details__title text-info"> Description </h3>
+						<ul class="details__description">
+							<p>Projet dans le cadre scolaire</p>
+							<p>Projet effectué en équipe avec la méthodologie Scrum</p>
+							<p> Sur 3 semaines, 3 sprint </p>
+							<p>Reunion avec le product Owner ( Le client )</p>
+						</ul>
+						<p class="details__description">Chaque Semaine nous recevions un ensemble de User Storys. (tâches à effectuer)</p>
+						<p>A la fin de celle-ci nous devions effectué une démonstration au PO et reprendre avec lui ce qui allait ou pas</p>
+						<h3 class="text-info">
+							Objectifs
+						</h3>
+						<ul class="details__description">
+							<p> Créer un site de streaming dans le but de satisfaire l'ensemble des demandes du client</p>
+						</ul>
+						<ul class="details__info">
+							<li> <b class="text-info"> Année </b>- - <span> 2023 </span></li>
+							<li><b class="text-info"> Langage</b>  - <span> PHP/Symfony</span></li>
+							<i class="fa-brands fa-php"></i>
+						</ul>
+					</div>
+				</div>
 				<div class="work__card mix python">
 					<img src="img/imageCaffePierre/primaryEnergy.png" alt="imageCaffePierre" class="work_img">
 					<h3 class="work_title"> Caffée Pierre </h3> 
@@ -97,8 +132,8 @@
 						<p class="details__description">Création d'une application en Python/Dash et une base de données, 
 							à partir de fichier csv contenant des données sur le rechauffement climatique </p><br>
 						<ul class="details__info">
-							<li> <b> Created </b>- <span> 2021 </span></li>
-							<li><b> Langages</b> - <span> Python/Dash</span></li>
+							<li> <b class="text-info"> Created </b>- <span> 2021 </span></li>
+							<li><b class="text-info"> Langages</b> - <span> Python/Dash</span></li>
 							<i class="fa-brands fa-python"></i>
 						</ul>
 					</div>
@@ -113,8 +148,8 @@
 						<h3 class="details__title"> Mini-Shell </h3><br>
 						<p class="details__description"> Création du version minime du Shell Linux</p><br>
 						<ul class="details__info">
-							<li> <b> Created </b> - <span> 2022 </span></li><br>
-							<li> <b> Langage</b> - <span> C</span></li>
+							<li> <b class="text-info">  Created </b> - <span> 2022 </span></li><br>
+							<li> <b class="text-info"> Langage</b> - <span> C</span></li>
 							<i class="fa-solid fa-c"></i>
 						</ul>
 					</div>
@@ -128,17 +163,17 @@
 					<div class="portfolio__item-details">
 						<h3 class="details__title">Filtre de Bloom</h3><br>
 						<p class="details__description">Implementation d'un filtre de bloom et d'un benchmark</p>
-						<p class="details__description">Structures de données utilisés : </p>
+						<p class="details__description text-info">Structures de données utilisés : </p>
 						<ul class="details__description">
 							<li> LinkedList</li>
 							<li> Tableau Simple</li>
 							<li> ArrayList</li>
 						</ul>
-						<p class="details__description">Il fallait mesurer le temps d'ajouts dans pour l'ensemble des structures de données </p>
+						<p class="details__description">Nous devions mesurer le temps d'ajouts/verification pour x nombres, en fonction du nombre de fonction de hash selectionnée, pour l'ensemble des structures de données </p>
 						<p class="details__description">Les tests étaient éffectuées avec plusieurs nombres (100,1000,10000) </p><br>
 						<ul class="details__info">
-							<li><b> Created </b> - <span> 2022 </span></li><br>
-							<li> <b> Langage</b> - <span> Java </span></li>
+							<li><b class="text-info"> Created </b> - <span> 2022 </span></li><br>
+							<li> <b class="text-info"> Langage</b> - <span> Java </span></li>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>
@@ -157,14 +192,14 @@
 							Réalisation d’une IA dans le but d'affronter les IA des autres étudiants de l'IUT
 						</p><br>
 						<ul class="details__info">
-							<li><b> Created </b>  - <span> 2021 </span></li><br>
-							<li> <b> Langage</b> - <span> Java</span></li>
+							<li><b class="text-info"> Created </b>  - <span> 2021 </span></li><br>
+							<li> <b class="text-info"> Langage</b> - <span> Java</span></li>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>
 				</div>
 				<div class="More">
-					<h2 class="section_title"><i class="fa-solid fa-arrow-right"></i> <a href="/html/allWorks.html">All my works </a> <i class="fa-solid fa-arrow-left"></i></h2>
+					<h2 class="section_title"><i class="fa-solid fa-arrow-right"></i> <a class="text-decoration-none " href="/html/allWorks.html">All my works </a> <i class="fa-solid fa-arrow-left"></i></h2>
 				</div>
 			</div>
 		</section>
@@ -194,13 +229,13 @@
 			<h2 class ="section_title">Contact </h2>
 			<div class="DiversContact">
 				<div class="contactExact">
-					<h3>Mon numéro :  <a href="tel:+33751624217"> +33 7 51 62 42 17</a> </h3>  
+					<h3>Mon numéro :  <a class="text-decoration-none "href="tel:+33751624217"> +33 7 51 62 42 17</a> </h3>  
 				</div><br>
 				<div class="contactExact">
-					<h3>Mon adresse-mail : <a href="mailto:carole.56leflohic@gmail.com"> carole.56leflohic@gmail.com</a></h3>
+					<h3>Mon adresse-mail : <a class="text-decoration-none " href="mailto:carole.56leflohic@gmail.com"> carole.56leflohic@gmail.com</a></h3>
 				</div><br>
 				<div class="contactExact">
-					<h3> Mon Linkedin : <a href="https://www.linkedin.com/in/carole-le-flohic-11223a213/"> Profil </a> </h3>
+					<h3> Mon Linkedin : <a class="text-decoration-none " href="https://www.linkedin.com/in/carole-le-flohic-11223a213/"> Profil </a> </h3>
 				</div>
 		</div>
 	</div>

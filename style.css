@@ -47,6 +47,7 @@ header{
 
 a {
 	color : #132a39;
+	
 }
 .logo{
 	font-size: 30px;
@@ -115,7 +116,7 @@ section{
 }
 
 .me-Personal {
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 }
 
