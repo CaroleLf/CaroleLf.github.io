@@ -5,7 +5,6 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: myPersonnalFont;
-	list-style: none;
 	text-decoration: none;
 
 }
@@ -117,6 +116,11 @@ a {
 	background-color: #132a39;
 	padding: 1.25rem;
 	border-radius: .5rem;
+}
+
+
+.details__info {
+	font-size: 1.2rem;
 }
 
 .portfolio__item-details {

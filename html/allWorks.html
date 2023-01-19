@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All my projects</title>
+    <title>Tous mes projecs</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="allWorks.css">
     <script src="https://kit.fontawesome.com/2b4594a491.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -17,9 +18,9 @@
 	<header>
 		<a href="#" class="logo"></a>
 		<ul class="navlist">
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../index.html">About</a></li>
-			<li><a href="../index.html#work">Projects</a></li>
+			<li><a href="../index.html">Accueil</a></li>
+			<li><a href="../index.html">A propos</a></li>
+			<li><a href="../index.html#work">Projets</a></li>
 			<li><a href="../index.html#contact">Contact</a></li>
 		</ul>
 		<div class="bx bx-menu" id="menu-icon"></div>
@@ -35,37 +36,46 @@
 				<span class="work_item" data-filter=".SQL"> SQL</span>
 				<span class="work_item" data-filter=".Bash"> BASH</span>
 				<span class="work_item" data-filter=".php"> PHP</span>
+				<span class="work_item" data-filter=".dns"> DNS</span>
 			</div>
 			<div class="work_container container grid"> 
 				<div class="work__card mix python">
 					<img src="../img/imageCaffePierre/primaryEnergy.png" alt="imageCaffePierre" class="work_img">
-					<h3 class="work_title"> Caffée Pierre </h3>
+					<h3 class="work_title"> Caffée Pierre </h3> 
 					<span class="work__button"> En Savoir Plus 
 						<i class="uil uil-arrow-left work__button-icon"></i>
 					</span>
 					<div class="portfolio__item-details">
-						<h3 class="details__title"> Caffée Pierre</h3>
-						<p class="details__description">Création d'une application en Python/Dash et une base de données, à partir de fichier csv contenant des données sur le rechauffement climatique </p>
-						<ul class="details__info">
-							<li> <b> Created </b>- - <span> 2021 </span></li>
-							<li> <b> Langages</b>  - <span> Python/Dash</span></li>
-							<i class="fa-brands fa-python"></i>
+						<h3 class="details__title"> Caffée Pierre</h3><br>
+						<h3 class="text-info">
+							Cahier des charges
+						</h3>
+						<ul class="details__description">
+							<li> Travailler en équipe</li>
+							<li>Traiter des données en rapport avec le changement climatique</li>
+							<li>Créer une base de données contenant des données à partir de fichier csv</li>
+							<li> Créer une interface graphique pour montrer nos résultats</li>
 						</ul>
-					</div>
-				</div>
-				<div class="work__card mix c">
-					<img src="../img/photoProject/miniShell.png" alt="imagePortfolio" class="work_img">
-					<h3 class="work_title"> Mini-Shell </h3>
-					<span class="work__button"> En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title"> Mini-Shell </h3>
-						<p class="details__description"> Création du version minime du Shell Linux</p>
-						<ul class="details__info">
-							<li> <b> Created </b>- - <span> 2022 </span></li>
-							<li><b> Langage</b>  - <span> C</span></li>
-							<i class="fa-solid fa-c"></i>
+						<h3 class="text-info">
+							Compétences acquises
+						</h3>
+						<ul class="details__description">
+							<li>Utilisation d'une base de données avec le langage python</li>
+							<li> Apprentissage de la technologie Dash pour créer des interface graphique</li>
+							<li> Génération de cartes et de graphiques depuis des données, en python</li>
+						</ul>
+						<h3 class="text-info">
+							Livrables
+						</h3>
+						<ul class="details__description">
+							<li> Projet fonctionnel</li>
+							<li> Une interface graphique permettant de visualiser les données grâce à des graphiques et des cartes</li>
+							<li> Base de données contenant nos données </li>
+						</ul>
+						<ul class="details__info h6">
+							<li> <b class="text-info"> Année </b>- <span> 2021 </span></li>
+							<li><b class="text-info"> Langages</b> - <span> Python/Dash/SQL</span></li>
+							<i class="fa-brands fa-python"></i>
 						</ul>
 					</div>
 				</div>
@@ -76,21 +86,108 @@
 						<i class="uil uil-arrow-left work__button-icon"></i>
 					</span>
 					<div class="portfolio__item-details">
-						<h1 class="details__title"> Site de séries </h1>
+						<h3 class="details__title"> Site de séries </h3>
 						<p class="details__description"> Création d'un site de séries en php accompagné du framework symfony</p>
+						<h3 class="details__title text-info"> Cahier des charges </h3>
 						<ul class="details__description">
-							<li>Projet dans le cadre scolaire</li>
-							<li>Projet effectué en équipe avec la méthodologie Scrum</li>
-							<p> Sur 3 semaines, 3 sprint </p>
-							<p>Reunion avec le product Owner ( Le client )</p>
+							<p>Créer une application web de séries</p>
+							<p>Utilisation de la méthode scrum</p>
+							<p>Respect des demandes du Product Owner</p>
+							<p>Maintenir un journal de bord</p>
 						</ul>
-						<p class="details__description">Chaque Semaine nous recevions un ensemble de User Storys. (tâches à effectuer)</p>
-						<p>A la fin de celle-ci nous devions effectué une démonstration au PO et reprendre avec lui ce qui allait ou pas</p>
-						<p class="details__description">Les tests étaient éffectuées avec plusieurs nombres (100,1000,10000) </p>
-						<ul class="details__info">
-							<li> <b> Année </b>- - <span> 2023 </span></li>
-							<li><b> Langage</b>  - <span> PHP/Symfony</span></li>
+						<h3 class="text-info">
+							Compétences acquises
+						</h3>
+						<ul class="details__description">
+							<li>Gestion d'un projet de longue durée (3 semaines)</li>
+							<li>Apprentisage en équipe de la méthode Scrum, notamment du role de Scrum Master</li>
+							<li>développement Front-End et Back-end</li>
+						</ul>
+						<h3 class="text-info">
+							Livrables
+						</h3>
+						<ul class="details__description">
+							<li>Projet respectant les demandes du client</li>
+							<li>Une application web fonctionnelle qui affiche des séries et leurs descriptions </li>
+							<li> Qui permet aux utilisateurs de suivre de nouvelles séries et d'ajouter des épisodes qu'ils ont vu.</li>
+						</ul>
+						<ul class="details__info h6">
+							<li> <b class="text-info"> Année </b>- - <span> 2023 </span></li>
+							<li><b class="text-info"> Langages</b>  - <span> PHP/Symfony</span></li>
 							<i class="fa-brands fa-php"></i>
+							<i class="fa-brands fa-symfony"></i>
+						</ul>
+					</div>
+				</div>
+				<div class="work__card mix dns">
+					<img src="../img/photoProject/dns.png" alt="image dns" class="work_img">
+					<h3 class="work_title">  Mise en place d'un serveur DNS  </h3> 
+					<span class="work__button"> En Savoir Plus 
+						<i class="uil uil-arrow-left work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title">  Mise en place d'un serveur DNS à l'aide d'outil de virtualisation de réseaux, Nemu</h3><br>
+						<h3 class="text-info">
+							Cahier des charges
+						</h3>
+						<ul class="details__description">
+							<li> Mettre en place un serveur DNS grâce au logiciel Nemu</li>
+							<li> Rendre un rapport détaillé de l'ensemble des étapes</li>
+						</ul>
+						<h3 class="text-info">
+							Compétences acquises
+						</h3>
+						<ul class="details__description">
+							<li>Connaissances par rapport au systeme DNS</li>
+							<li> Apprentisage du format Mardown pour écrire notre rapport</li>
+						</ul>
+						<h3 class="text-info">
+							Livrables
+						</h3>
+						<ul class="details__description">
+							<li> Un rapport détaillant explicitement l'ensemble des commandes a effectué pour mettre en place un serveur DNS sur le logiciel Nemu</li>
+						</ul>
+						<ul class="details__info h6">
+							<li> <b class="text-info"> Année </b>- <span> 2022 </span></li>
+							<li><b class="text-info"> Langages</b> - <span> Bash/Mardown</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="work__card mix c">
+					<img src="../img/photoProject/miniShell.png" alt="imagePortfolio" class="work_img">
+					<h3 class="work_title"> Mini-Shell </h3>
+					<span class="work__button"> En Savoir Plus 
+						<i class="uil uil-arrow-left work__button-icon"></i>
+					</span>
+					<div class="portfolio__item-details">
+						<h3 class="details__title"> Mini-Shell </h3><br>
+						<p class="details__description"> Création du version minime du Shell Linux</p><br>
+						<h3 class="text-info">
+							Cahier des charges
+						</h3>
+						<ul class="details__description">
+							<li> Pouvoir lancminimeer des commandes internes</li>
+							<li> Pouvoir lancer des commandes externes</li>
+							<li> Gérer les signaux</li>
+						</ul>
+						<h3 class="text-info">
+							Compétences acquises
+						</h3>
+						<ul class="details__description">
+							<li> Développemnt dans le langage C</li>
+							<li> Gestions des signaux et des pointeurs</li>
+						</ul>
+						<h3 class="text-info">
+							Livrables
+						</h3>
+						<ul class="details__description">
+							<li> Version minime du mini-shell basé sur celui de linux</li>
+							<li> Programme qui permet d'utiliser les commandes cd,jobs, ls, pdw, mkdir</li>
+						</ul>
+						<ul class="details__info">
+							<li> <b class="text-info">  Année </b> - <span> 2022 </span></li><br>
+							<li> <b class="text-info"> Langage</b> - <span> C</span></li>
+							<i class="fa-solid fa-c"></i>
 						</ul>
 					</div>
 				</div>
@@ -102,12 +199,18 @@
 					</span>
 					<div class="portfolio__item-details">
 						<h3 class="details__title">Filtre de Bloom</h3>
-						<p class="details__description">Implementation d'un filtre de bloom et d'un benchmark</p>
-						<p class="details__description">Structures de données utilisés : </p>
+						<h3 class="text-info">
+							Cahier des charges
+						</h3>
 						<ul class="details__description">
-							<li> LinkedList</li>
+							<li>Implementation d'un filtre de bloom et d'un benchmark</li>
+							<li> Utiliser les structures de données suivantes : </li>
+							<li> <ul>
+								<li> LinkedList</li>
 							<li> Tableau Simple</li>
 							<li> ArrayList</li>
+							</ul>
+						</li>
 						</ul>
 						<p class="details__description">Il fallait mesurer le temps d'ajouts dans pour l'ensemble des structures de données </p>
 						<p class="details__description">Les tests étaient éffectuées avec plusieurs nombres (100,1000,10000) </p>

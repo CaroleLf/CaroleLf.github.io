@@ -5,7 +5,6 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: myPersonnalFont;
-	list-style: none;
 	text-decoration: none;
     max-width: 96vw;
 }
@@ -269,6 +268,9 @@ section{
 }
 
 
+.details__info {
+	font-size: 1.2rem;
+}
 /******* Active item Work *****/
 
 
