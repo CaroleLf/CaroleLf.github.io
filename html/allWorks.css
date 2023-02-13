@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	font-family: myPersonnalFont;
 	text-decoration: none;
+	max-width: 96vw;
 
 }
 
@@ -23,6 +24,8 @@
 body {
 	background: linear-gradient( #132a39,#4d8a95);
 	color: white;
+	min-height: 100vh;
+
 }
 
 

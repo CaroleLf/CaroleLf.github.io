@@ -18,10 +18,10 @@
 	<header>
 		<a href="#" class="logo"></a>
 		<ul class="navlist list-unstyled">
-			<li><a href="../index.html">Accueil</a></li>
-			<li><a href="../index.html">A propos</a></li>
-			<li><a href="../index.html#work">Projets</a></li>
-			<li><a href="../index.html#contact">Contact</a></li>
+			<li><a class="text-decoration-none" href="../index.html">Accueil</a></li>
+			<li><a class="text-decoration-none" href="../index.html">A propos</a></li>
+			<li><a class="text-decoration-none" href="html/allWorks.html">Projets</a></li>
+			<li><a class="text-decoration-none"href="../index.html#contact">Contact</a></li>
 		</ul>
 		<div class="bx bx-menu" id="menu-icon"></div>
 	</header>
@@ -38,7 +38,7 @@
 				<span class="work_item" data-filter=".php"> PHP</span>
 				<span class="work_item" data-filter=".dns"> DNS</span>
 			</div>
-			<div class="work_container container grid"> 
+			<div class="work_container container grid  mt-5"> 
 				<div class="work__card mix python">
 					<img src="../img/imageCaffePierre/primaryEnergy.png" alt="imageCaffePierre" class="work_img">
 					<h3 class="work_title"> Café Pierre </h3> 
@@ -258,9 +258,8 @@
 							</li> 
 							<li>Etape 2 : 
 								<ul>
-									<li>Depuis une base de code, developper une
-										intelligence artificielle dans le but 
-										d'affronter les autrès étudiants du BUT Informatique
+									<li>Depuis une base de code, developper une intelligence artificielle dans le but 
+										d'affronter les autres étudiants de la promotion
 									</li>
 								</ul>
 							</li> 
@@ -271,19 +270,19 @@
 						<ul class="details__description">
 							<li> Apprentisage de la programmation java sur un jeu de plateau</li>
 							<li> Apprentisage des tableaux 2D</li>
-							<li></li>
 						</ul>
 						<h3 class="text-info">
 							Livrables
 						</h3>
 						<ul class="details__description">
 							<li> Jeu fonctionnel, programmation jusqu'à la règle niveau 8 sur 12</li>
-							<li> Test du temps d'ajouts/verification pour x nombres, en fonction du nombre de fonctions de hash sélectionnée, pour l'ensemble des structures de données							</li>
+							<li> IA Fonctionnel et efficace </li>
 						</ul>
 						<ul class="details__info">
 							<li><b class="text-info"> Année </b> - <span> 2021 </span></li><br>
 							<li> <b class="text-info"> Langage</b> - <span> Java </span></li>
 							<li> <b class="text-info"> Outil</b> - <span> Netbeans </span></li>
+							<li> <b class="text-info"> Rapport : </b> - <span> <a  target="_blank" href="../rapport/Rapport Lowatem.pdf"> Lien du rapport</a></span> </li>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>
@@ -296,16 +295,34 @@
 					</span>
 					<div class="portfolio__item-details">
 						<h3 class="details__title">6 qui prend</h3> 
-						<h4>Objectifs</h4>
-						<p class="details__description">
-							Réaliser un jeu sur Visual Studio en C# sur la base du jeu  <a href="https://fr.wikipedia.org/wiki/6_qui_prend_!#:~:text=Le%20but%20du%20jeu%20est,%C3%A0%20celui%20qui%20les%20ramasse.">6qui-prend</a>
-						</p>
-						<p class="details__description">
-							Réaliser en IHM ce projet
-						</p> <br>
+						<h3 class="text-info"> Cahier des charges </h3>
+						<ul class="details__description">
+							<li>
+								Réaliser un jeu sur l'outil Visual Studio en C# sur la base du jeu  <a href="https://fr.wikipedia.org/wiki/6_qui_prend_!#:~:text=Le%20but%20du%20jeu%20est,%C3%A0%20celui%20qui%20les%20ramasse.">6qui-prend</a>
+							</li>
+							<li>
+								Réaliser un jeu fonctionnel pouvant se jouer à plusieurs respectant l'ensemble des règles du jeu original
+							</li> 
+						</ul>
+						<h3 class="text-info">
+							Compétences acquises
+						</h3>
+						<ul class="details__description">
+							<li> Programmation objets en C#</li>
+						</ul>
+						<h3 class="text-info">
+							Livrables
+						</h3>
+						<ul class="details__description">
+							<li> Jeu fonctionnel en multijoueurs </li>
+							<li> Interface propre et lisible </li>
+							<li> Calcul des points de jeu </li>
+							<li> Affichage des differentes cartes dans l'interface utilisateur </li>
+						</ul>
 						<ul class="details__info">
-							<li> <b> Année </b> - <span> 2022 </span></li>
-							<li> <b> Langage</b>  - <span> C#</span></li>
+							<li> <b class="text-info">  Année </b> - <span> 2022 </span></li>
+							<li> <b class="text-info"> Logiciel </b> - <span> Visual Studio</span></li>
+							<li> <b class="text-info">  Langage</b> - <span> C#</span></li>
 						</ul>
 					</div>
 				</div>
@@ -330,7 +347,7 @@
 							<li> Création d'une maquette pour une future application </li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>- - <span> 2021 </span></li>
+							<li> <b> Année </b>- - <span> 2021 </span></li>
 							<li> <b> Langage</b> e - <span> SQL </span></li>
 							<li> Logiciel - <span> Microsoft SQL Manager/Win'Design </span></li><br>
 						</ul>
@@ -361,7 +378,7 @@
 							<li> Pour cela nous devions créer un script en Bash regroupant les fonctionnalitées </li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>-- <span> 2021 </span></li><br>
+							<li> <b> Année </b>-- <span> 2021 </span></li><br>
 							<li> <b> Langage</b>  - <span> Bash/HTML </span></li><br>
 							<li> Logiciel - <span> Visual Studio Code</span></li><br>
 						</ul>
@@ -385,7 +402,7 @@
 							<li> Ajout d'obstacles</li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>- - <span> 2021 </span></li><br>
+							<li> <b> Année </b>- - <span> 2021 </span></li><br>
 							<li> <b> Langage</b>  - <span> Java </span></li><br>
 							<li> Logiciel - <span> Processing </span></li><br>
 							<li><i class="fa-brands fa-java"></i></li>
@@ -418,10 +435,10 @@
 							</li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>- <span> 2022 </span></li><br>
+							<li> <b> Année </b>- <span> 2022 </span></li><br>
 							<li> <b> Langage</b>  - <span> Java </span></li><br>
 							<li> <b>Bibliothèque</b> - <span> jbotsim </span></li><br>
-							<li> Logiciel - <span> IntelliJ/Netbeans </span></li><br>
+							<li> Outils - <span> IntelliJ/Netbeans </span></li><br>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>
@@ -448,9 +465,9 @@
 							<li> Gestion des differents utilisateurs </li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>- <span> 2022 </span></li><br>
+							<li> <b> Année </b>- <span> 2022 </span></li><br>
 							<li> L<b> Langage</b>  - <span> Java </span></li><br>
-							<li> Logiciel - <span> IntelliJ/Netbeans </span></li><br>
+							<li> Outils - <span> IntelliJ/Netbeans </span></li><br>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>
@@ -475,9 +492,9 @@
 							<li> Gestion des déplacements du personnage et des monstres</li><br>
 						</ul>
 						<ul class="details__info">
-							<li> <b> Created </b>- <span> 2022 </span></li><br>
+							<li> <b> Année </b>- <span> 2022 </span></li><br>
 							<li> <b> Langage</b>  - <span> Java </span></li><br>
-							<li> Logiciel - <span> IntelliJ/Netbeans </span></li><br>
+							<li> Outils - <span> IntelliJ/Netbeans </span></li><br>
 							<li><i class="fa-brands fa-java"></i></li>
 						</ul>
 					</div>

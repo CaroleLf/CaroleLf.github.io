@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: myPersonnalFont;
 	text-decoration: none;
-    max-width: 96vw;
+	max-width: 96vw;
 }
 
 @font-face {
@@ -23,6 +23,9 @@
 body {
 	color: white;
 	background: linear-gradient( #132a39 , #4d8a95  );
+	max-width: 96vw;
+	min-height: 100vh;
+
 }
 
 
@@ -46,8 +49,11 @@ header{
 
 a {
 	color : #132a39;
+	text-decoration: none;
 	
 }
+
+
 .logo{
 	font-size: 30px;
 	font-weight: 700;

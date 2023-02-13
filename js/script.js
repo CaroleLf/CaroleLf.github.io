@@ -40,7 +40,6 @@ if (containerEl) {
 }
 
 
-
 /*** LINK ACTIVE WORK  ********/
 
 const linkWork  = document.querySelectorAll('.work_item');
@@ -60,27 +59,21 @@ document.addEventListener("click", (e)=> {
 	if(e.target.classList.contains("work__button")){
 		togglePortfolioPopup();
 		portfolioItemDetails(e.target.parentElement);
-
+	} else if (!e.target.closest(".portfolio__popup-inner") && document.querySelector(".portfolio__popup").classList.contains("open")) {
+		togglePortfolioPopup();
 	}
-})
-
+});
 
 function togglePortfolioPopup(){
 	document.querySelector(".portfolio__popup").classList.toggle("open");
 }
 
-document.querySelector(".portfolio__popup-close").addEventListener("click", togglePortfolioPopup)
-
+document.querySelector(".portfolio__popup-close").addEventListener("click", togglePortfolioPopup);
 
 function portfolioItemDetails(portfolioItem){
 	document.querySelector(".pp__thumbnail img").src = portfolioItem.querySelector(".work_img").src;
 	document.querySelector(".portfolio__popup-body").innerHTML = portfolioItem.querySelector(".portfolio__item-details").innerHTML;
-
 }
-
-
-
-
 /** Scroolbar ***/
 
 
