@@ -16,8 +16,10 @@
                     sp.className = "work__button";
                     sp.innerText = "En savoir plus";
 
-                    let i = document.createElement('i');
-                    i.className = "uil uil-arrow-left work__button-icon";
+                    let arrow = document.createElement('i');
+                    arrow.className = "uil uil-arrow-left work__button-icon";
+
+                  
 
                     let cahierCharge = document.createElement("h3");
                     cahierCharge.className = "text-info";
@@ -69,12 +71,17 @@
 
                     let parts = v.cahierDesCharges.split("/");
 
-                    sp.appendChild(i);
+                    sp.appendChild(arrow);
 
                     container.appendChild(work_card);
                     work_card.appendChild(image);
                     work_card.appendChild(title1);
                     work_card.appendChild(sp);
+                    if (v.icon != ""){
+                        let icon = document.createElement('i')
+                        icon.className = v.icon;
+                        work_card.appendChild(icon)
+                    }
                     work_card.appendChild(itemDetail);
 
                     itemDetail.appendChild(title2);

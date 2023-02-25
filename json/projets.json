@@ -11,7 +11,8 @@
         "outils":"Visual Studio code",
         "img":"../img/imageCaffePierre/primaryEnergy.png",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-python"
     },
     {
         "name": "Site de séries",
@@ -24,7 +25,8 @@
         "outils":"Visual Studio code/PHPMYAdmin",
         "img":"../img/photoProject/Rees.png ",
         "rapport":"",
-        "depot":""
+        "depot":"https://github.com/CaroleLf/Rees",
+        "icon":"fa-brands fa-php"
         
     },
     {
@@ -38,7 +40,8 @@
         "outils":"Nemu/Visual Studio code",
         "img":"../img/photoProject/dns.png",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":""
     },
     {
         "name": "Mini-Shell",
@@ -51,7 +54,8 @@
         "outils":"Visual Studio code",
         "img":"../img/photoProject/miniShell.png",
         "rapport":"",
-        "depot":"https://github.com/CaroleLf/Mini-Shell"
+        "depot":"https://github.com/CaroleLf/Mini-Shell",
+        "icon":"fa-solid fa-c"
     },
     {
         "name": "Filtre de Bloom",
@@ -64,7 +68,8 @@
         "outils":"IntelliJ",
         "img":"../img/photoProject/BloomFilter.png",
         "rapport":"",
-        "depot":"https://github.com/CaroleLf/BloomFilter"
+        "depot":"https://github.com/CaroleLf/BloomFilter",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "Théorie des graphes",
@@ -77,7 +82,8 @@
         "outils":"IntelliJ",
         "img":"../img/photoProject/GRAPHE.png",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "Lowatem",
@@ -90,7 +96,8 @@
         "outils":"Netbeans",
         "img":"../img/photoProject/lowatem-gui2.png",
         "rapport":"../rapport/Rapport Lowatem.pdf",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "Application de location",
@@ -103,7 +110,8 @@
         "outils":"Netbeans",
         "img":"../img/photoProject/location.jpg",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "6 qui prend",
@@ -116,7 +124,8 @@
         "outils":"Visual Studio",
         "img":"../img/photoProject/6qui-prend.png",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":""
     },
     {
         "name": "Labyrinthe",
@@ -129,7 +138,8 @@
         "outils":"Netbeans",
         "img":"../img/photoProject/labyrinthe.png",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "Pong",
@@ -142,7 +152,8 @@
         "outils":"Processing",
         "img":"../img/photoProject/pong.jpg",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":"fa-brands fa-java"
     },
     {
         "name": "Création d'un générateur de page HTML en Bash",
@@ -155,7 +166,8 @@
         "outils":"Visual Studio code",
         "img":"../img/photoProject/script.jpg",
         "rapport":"",
-        "depot":""
+        "depot":"",
+        "icon":""
     }
     
     
