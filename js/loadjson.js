@@ -1,7 +1,7 @@
 
     function loadProjects(){
         const myRequest = new Request('../json/projets.json');
-        let container  = document.getElementsByClassName("work_container")[0];
+        let container  = document.getElementById("work_container");
         fetch(myRequest)
             .then((response)=> response.json())
             .then((data) => {
@@ -138,13 +138,5 @@
                     }
                 }
         })
-    
-const sr = ScrollReveal ({
-    distance: '65px',
-    duration: 2600,
-    delay: 450,
-    reset: true
-});
-sr.reveal('.work_container', {delay:100,origin:'right'})
 
 }
