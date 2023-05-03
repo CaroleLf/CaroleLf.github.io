@@ -30,6 +30,35 @@
         
     },
     {
+        "name": "Labyrinthe avec android studio",
+        "cahierDesCharges": "Créer un jeu type pacman pour telephone portable avec le logiciel Android Studio / Affichage du labyrinthe / Gestion des déplacements du joueur",
+        "compétencesAcquises": "Utilisation de Canvas / Découverte du logiciel Android Studio",
+        "livrables":"Un jeu fonctionnel sur téléphone portable contenant 3 parties / Affichage de la carte / Choix du labyrinthe / Gestion des déplacements du joueur sur une mini carte",
+        "annee":"2023",
+        "filter":"Java",
+        "language":"Java",
+        "outils":"Android Studio",
+        "img":"../img/photoProject/android.png",
+        "rapport":"",
+        "depot":"",
+        "icon":"fa-brands fa-java"
+    },
+    {
+        "name": "Interogation de l'API google books",
+        "cahierDesCharges": "Créer une application permettant de rechercher des livres sur l'API google books / Affichage des résultats de la recherche par auteur / Possibilité de voir les détails d'un livre / Gestion de la pagination",
+        "compétencesAcquises": "Découverte du React / Interrogation d'une API avec Axios", 
+        "livrables":"Application contenant une barre de recherche qui interoge l'API Google books en fonction du texte entré / Affichage des résultats de la recherche / Possibilité de voir les détails d'un livre / Gestion de la pagination",
+        "annee":"2023",
+        "filter":"React",
+        "language":"JavaScript/CSS/HTML",
+        "biblio":"React/Axios",
+        "outils":"Visual Studio code",
+        "img":"../img/photoProject/api_google.png",
+        "rapport":"",
+        "depot":"",
+        "icon":"fa-brands fa-js"
+    },
+    {
         "name": "Mise en place d'un serveur DNS",
         "cahierDesCharges": " Mettre en place un serveur DNS grâce au logiciel Nemu, un logiciel de virtualisation de réseaux/Rendre un rapport détaillé de l'ensemble des étapes",
         "compétencesAcquises": "Connaissances par rapport au système DNS/Apprentissage du format Mardown pour écrire notre rapport",
@@ -169,37 +198,6 @@
         "depot":"",
         "icon":"fa-solid fa-terminal"
     }
-    ,
-    {
-        "name": "Labyrinthe avec android studio",
-        "cahierDesCharges": "Créer un jeu type pacman pour telephone portable avec le logiciel Android Studio / Affichage du labyrinthe / Gestion des déplacements du joueur",
-        "compétencesAcquises": "Utilisation de Canvas / Découverte du logiciel Android Studio",
-        "livrables":"Un jeu fonctionnel sur téléphone portable contenant 3 parties / Affichage de la carte / Choix du labyrinthe / Gestion des déplacements du joueur sur une mini carte",
-        "annee":"2023",
-        "filter":"Java",
-        "language":"Java",
-        "outils":"Android Studio",
-        "img":"../img/photoProject/android.png",
-        "rapport":"",
-        "depot":"",
-        "icon":"fa-brands fa-java"
-    },
-    {
-        "name": "Interogation de l'API google books",
-        "cahierDesCharges": "Créer une application permettant de rechercher des livres sur l'API google books / Affichage des résultats de la recherche par auteur / Possibilité de voir les détails d'un livre / Gestion de la pagination",
-        "compétencesAcquises": "Découverte du React / Interrogation d'une API avec Axios", 
-        "livrables":"Application contenant une barre de recherche qui interoge l'API Google books en fonction du texte entré / Affichage des résultats de la recherche / Possibilité de voir les détails d'un livre / Gestion de la pagination",
-        "annee":"2023",
-        "filter":"React",
-        "language":"JavaScript/CSS/HTML",
-        "biblio":"React/Axios",
-        "outils":"Visual Studio code",
-        "img":"../img/photoProject/api_google.png",
-        "rapport":"",
-        "depot":"",
-        "icon":"fa-brands fa-js"
-    }
-
     
     
 ]
