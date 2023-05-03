@@ -136,6 +136,17 @@
                         linkDepot.appendChild(bDepot);
 
                     }
+                    if(v.biblio != "" && v.biblio !== undefined){
+                        let liBiblio = document.createElement("li");
+                        let bBiblio = document.createElement("b");
+                        bBiblio.className = "text-info";
+                        bBiblio.innerText = v.biblio
+                        liBiblio.innerText =  "Bibliothèque(s) : " 
+                        ulDetails.appendChild(liBiblio);
+                        liBiblio.appendChild(bBiblio);
+                    }
+             
+                    
                 }
         })
 
