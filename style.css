@@ -1,5 +1,3 @@
-
-
 *{
 	padding: 0;
 	margin: 0;
@@ -570,4 +568,26 @@ section{
 		justify-content: center;
 		padding-top: 1rem;
 	}
+	.portfolio__popup-inner {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .portfolio__popup-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio__popup-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .details__title, .text-info, .details__description li, .details__info li {
+        font-size: smaller; /* Adjusts font size for readability */
+    }
+
+    .portfolio__popup-info, .portfolio__popup-body {
+        padding: 0.5rem; /* Reduces padding and margins for space efficiency */
+    }
 }

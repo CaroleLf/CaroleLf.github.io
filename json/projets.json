@@ -197,7 +197,20 @@
         "rapport":"",
         "depot":"",
         "icon":"fa-solid fa-terminal"
+    },
+    {
+        "name": "Mealand",
+        "cahierDesCharges": "Développer une preuve de concept pour un site de recette de cuisine",
+        "compétencesAcquises": "Analyse des concurrents d'un domaine / Création d'un cahier des charges / Mise en place d'une interface utilisateur / Implémentation des fonctionnalités",
+        "livrables":"Site web fonctionnelle et complet",
+        "annee":"2023",
+        "filter":"php",
+        "language":"PHP/Symfony/HTML/CSS/Tailwind",
+        "outils":"Visual Studio code",
+        "img":"../img/photoProject/mealand.png",
+        "rapport":"",
+        "depot":"",
+        "icon":"fa-brands fa-php"
     }
-    
     
 ]
