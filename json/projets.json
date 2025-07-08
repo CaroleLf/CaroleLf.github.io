@@ -1,6 +1,20 @@
 
 [
     {
+    "name": "Minist’eirb",
+    "cahierDesCharges": "Créer un site web pour représenter la liste BDE 'Minist’eirb' de l’ENSEIRB-MATMECA, avec les informations sur les membres, les ministères, les événements et les partenaires",
+    "compétencesAcquises": "Développement frontend avec React / Création d'un backend avec NestJS / Mise en place d'un système de navigation / Affichage de données dynamiques / Déploiement en ligne",
+    "livrables": "Site web avec plusieurs pages : présentation de la liste, des ministères, des partenaires, et des projets de la campagne",
+    "annee": "2025",
+    "filter": "javascript",
+    "language": "TypeScript/React/NestJS/HTML/CSS",
+    "outils": "React / NestJS / PostgreSQL / Git / Visual Studio Code / Vercel ou Render",
+    "img": "../img/photoProject/ministeirb.png",
+    "rapport": "",
+    "depot": "",
+    "icon": "fa-brands fa-js"
+    },
+    {
         "name": "Café Pierre",
         "cahierDesCharges": "Travailler en équipe/Traiter des données en rapport avec le changement climatique/Créer une base de données contenant des données à partir de fichier csv",
         "compétencesAcquises": "Utilisation d'une base de données avec le langage python/Apprentissage de la technologie Dash pour créer des interfaces graphiques/Génération de cartes et de graphiques depuis des données, en python",
@@ -211,6 +225,19 @@
         "rapport":"",
         "depot":"",
         "icon":"fa-brands fa-php"
+    },
+    {
+    "name": "LyriQuest",
+    "cahierDesCharges": "Développer un jeu de devinettes musicales interactif permettant aux utilisateurs de deviner les paroles, artistes et titres de chansons",
+    "compétencesAcquises": "Développement d'API REST avec Django / Intégration d'APIs externes (Lyrics.ovh) / Gestion de sessions utilisateur / Manipulation de données JSON / Tests unitaires / Interface utilisateur responsive",
+    "livrables": "Application web complète avec 5 modes de jeu différents, API REST, système de gestion d'artistes et interface d'administration",
+    "annee": "2024",
+    "filter": "python",
+    "language": "Python/Django/HTML/CSS/JavaScript",
+    "outils": "Django REST Framework / Wagtail CMS / SQLite / Visual Studio Code",
+    "img": "../img/photoProject/lyriquest.png",
+    "rapport": "",
+    "depot": "",
+    "icon": "fa-brands fa-python"
     }
-    
 ]

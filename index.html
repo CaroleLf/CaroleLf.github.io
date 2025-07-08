@@ -1,354 +1,337 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mon Portfolio</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-	<link rel="shortcut icon" href="img/logo.png" >
-	<link href='https://css.gg/css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-	<script src="https://kit.fontawesome.com/2b4594a491.js" crossorigin="anonymous"></script>
-	<script src="js/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carole Le Flohic - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-	<div class="scrollbar"></div>
-	<div class="clickScrollbar"></div>
-	<header>
-		<a href="#" class="logo"></a>
-		<ul class="navlist list-unstyled">
-			<li><a class="text-decoration-none" href="#">Accueil</a></li>
-			<li><a class="text-decoration-none" href="#">A propos</a></li>
-			<li><a class="text-decoration-none" href="projects/allWorks.html">Projets</a></li>
-			<li><a class="text-decoration-none"href="#contact">Contact</a></li>
-		</ul>
-		<div class="bx bx-menu" id="menu-icon"></div>
-	</header>
-	<section class="me w-auto">
-		<div class="me-text w-auto">
-			<h4>Etudiante en BUT Informatique</h4>
-			<h1>Le Flohic Carole</h1>
-		</div>
-		<div class="me-Personal">
-			<p class="m-0">Actuellement étudiante en 3e année à l'IUT de Bordeaux</p>
-			<p class="m-0"> 
-				Je suis dynamique, positive, déterminée et j'aime travailler en équipe.
-			</p> <br>
-			<p class="m-0">
-				Mes langages : 
-			</p><br>
-			<p>
-				<i class="fa-brands fa-html5"> / </i>
-				<i class="fa-brands fa-css3-alt"> / </i>
-				<i class="fa-brands fa-js"> / </i>
-				<i class="fa-brands fa-java"> / </i>
-				<i class="fa-brands fa-python"> / </i>
-				<i> C# / </i>
-				<i class="fa-solid fa-c"> / </i>
-				<i class="fa-brands fa-php">/</i>
-				<i> SQL/</i>
-				<i> Bash </i>
-			</p>	
-			<p>
-				Mes frameworks : 
-			</p>
-			<p>
-				<i class="fa-brands fa-symfony">/</i>
-				<i class=""> Tailwind/</i>
-				<i class="fa-brands fa-bootstrap"> /</i>
-				<i>Dash</i>
-			</p>	
-			<p>
-				Mes Outils : 
-			</p>
-			<p>
-				<i class="uil uil-visual-studio"> / </i>
-				<i>Visual Studio / </i>
-				<i>IntelliJ / </i>
-				<i class="uil uil-github">/</i>
-				<i class="fa-brands fa-gitlab">/</i>
-				<i>Microsoft SQL Server/</i>
-				<i>PHPMyAdmin/</i>
-				<i class=""> Netbeans</i>
-			</p>	
-			<p>
-				Mes Bibliothèques : 
-			</p>
-			<p>
-				<i class="fa-brands fa-react"></i>
-			</p>	
-		</div>
-	</section>
+    <div class="animated-bg">
+        <div class="bg-shape bg-shape-1"></div>
+        <div class="bg-shape bg-shape-2"></div>
+        <div class="bg-shape bg-shape-3"></div>
+        <div class="bg-shape bg-shape-4"></div>
+    </div>
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+            <li><a href="#projets" class="nav-link">Projets</a></li>
+            <li><a href="#competences" class="nav-link">Compétences</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+			<h1 class="hero-title">Carole Le Flohic</h1>
+            <p class="hero-subtitle">
+                Étudiante à l'ENSEIRB MATMECA
+            </p>
+            <div class="cta-buttons">
+                <a href="#projets" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Voir mes projets
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-message"></i>
+                    Mon CV
+                </a>
+            </div>
+        </div>
+    </section>
 
-	<div class="icons">
-		<a  target="_blank" href="https://github.com/CaroleLf"><i class="ri-github-line"></i></a>
-		<a  target="_blank" href="https://linkedin.com/in/carole-le-flohic"><i class="ri-linkedin-line"></i></a>
-		<a  target="_blank" href="docs/Carole-Le_Flohic-N&B.pdf"><i>CV</i></a>
-	</div>
+    <!-- Projects Section -->
+    <section id="projets" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Mes Projets</h2>
+            <p class="section-subtitle">
+                Découvrez une sélection de mes réalisations récentes, alliant innovation technique et design moderne
+            </p>
+        </div>
 
-	<div class="scroll-down">
-		<a href="#"><i class="ri-arrow-down-s-fill"></i></a>
-	</div>
-	<main>
-		<section class="work section" id="work">
-			<h2 data-heading="My Portoflio" class="section_title">Projets récents</h2>
-			<div class="work_filters">
-				<span class="work_item active-work" data-filter="all"> All</span>
-				<span class="work_item" data-filter=".java">Java</span>
-				<span class="work_item" data-filter=".python"> Python</span>
-				<span class="work_item" data-filter=".c"> C</span>
-				<span class="work_item" data-filter=".php"> PHP</span>
-				<span class="work_item" data-filter=".dns"> DNS</span>
+        <div class="projects-grid">
+            <!-- Les cartes seront générées dynamiquement par JavaScript -->
+        </div>
+    </section>
+
+    <section id="competences" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Mes Compétences</h2>
+            <p class="section-subtitle">
+                Technologies et outils que je maîtrise 
+            </p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-title">Frontend</h3>
+                <div class="skill-list">
+                    React, Angular, JavaScript<br>
+                    HTML5, CSS3, Tailwind, Bootstrap<br>
+                    TypeScript
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3 class="skill-title">Backend</h3>
+                <div class="skill-list">
+                    Java, PHP, Python<br>
+                    Symfony, C, BASH, C#<br>
+                    API REST, SQL, PL/SQL<br>
+                    NestJs
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3 class="skill-title">Base de données</h3>
+                <div class="skill-list">
+                    Oracle, MySQL, PostgreSQL<br>
+                    MongoDB<br>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3 class="skill-title">Outils</h3>
+                <div class="skill-list">
+                    Git, Docker<br>
+                    VS Code, Figma<br>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="skill-title">IA & Data</h3>
+                <div class="skill-list">
+                    Python<br>
+                    Machine Learning<br>
+                </div>
+            </div>
+			<div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <h3 class="skill-title">Réseaux </h3>
+                <div class="skill-list">
+                    Nginx<br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Mon CV</h2>
+            <p class="section-subtitle">
+                Découvrez mon parcours et mes expériences
+            </p>
+        </div>
+       <div class="cv-container">
+    <!-- Formation -->
+    <div class="cv-section">
+        <div class="cv-header">
+            <h3>
+                <i class="fas fa-graduation-cap"></i>
+                Formation
+            </h3>
+        </div>
+        <div class="cv-content">
+            <div class="cv-item">
+                <div class="cv-date">2024 - 2027</div>
+                <div class="cv-info">
+                    <h4>Ingénieure Réseaux & Informatique </h4>
+					<h3> ENSEIRB-MATMECA, Talence (33)</h3>
+                    <p>Ingénieur en Réseaux et Informatique - 1<sup>ère</sup> année<br>
+                    Maîtrise des technologies des communications, du numérique et de l’informatique<br>
+                    Développement d’une preuve de concept avec le framework Symfony</p>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-date">2021 - 2024</div>
+                <div class="cv-info">
+                    <h4>BUT Informatique</h4>
+                    <p>IUT de Bordeaux, Gradignan (33)<br>
+                    Parcours international (Diplôme Universitaire)<br>
+                    Développement web, réseaux, algorithmie et méthodes agiles</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Expérience professionnelle -->
+    <div class="cv-section">
+        <div class="cv-header">
+            <h3>
+                <i class="fas fa-briefcase"></i>
+                Expériences professionnelles
+            </h3>
+        </div>
+        <div class="cv-content">
+            <div class="cv-item">
+                <div class="cv-date">2023 - 2025</div>
+                <div class="cv-info">
+                    <h4>Développeuse Full-Stack en alternance</h4>
+                    <p>CGI, Le Haillan, France</p>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-date">Avril - Juin 2023</div>
+                <div class="cv-info">
+                    <h4>Stage Universitaire</h4>
+                    <p>Université de Thomas More, Geel, Belgique</p>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-date">Oct. 2022 - Jan. 2023</div>
+                <div class="cv-info">
+                    <h4>Responsable développement web</h4>
+                    <p>IUT de Bordeaux, Gradignan (33)<br>
+                    Développement du site web façade et du site de vente<br>
+                    Mise en place d’un serveur sur Raspberry Pi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Activités extra-professionnelles -->
+    <div class="cv-section">
+        <div class="cv-header">
+            <h3>
+                <i class="fas fa-futbol"></i>
+                Activités extra-professionnelles
+            </h3>
+        </div>
+        <div class="cv-content">
+            <div class="cv-item">
+                <div class="cv-date">2018 - 2019</div>
+                <div class="cv-info">
+                    <h4>Football</h4>
+                    <p>11 ans de pratique en club<br>
+                    Championnat de France futsal 2018/2019</p>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-date">2024 - 2025</div>
+                <div class="cv-info">
+                    <h4>Minist’eirb, BDE ENSEIRB-MATMECA</h4>
+                    <p>Responsable Web de la liste BDE gagnante<br>
+                    <a href="https://ministeirb.fr/" target="_blank">ministeirb.fr</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+			<div class="cv-actions">
+				<a href="docs/Carole-Le_Flohic-N&B.pdf" class="btn btn-primary" download>
+					<i class="fas fa-download"></i>
+					Télécharger mon CV
+				</a>
 			</div>
-			<div class="work_container container grid"> 
-				<div class="work__card mix php">
-					<img src="../img/photoProject/Rees.png" alt="imagePortfolio" class="work_img">
-					<h3 class="work_title"> Site de séries</h3>
-					<span class="work__button" onclick="mobOrNot()"> En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title"> Site de séries </h3>
-						<p class="details__description"> Création d'un site de séries en php accompagné du framework symfony</p>
-						<h3 class="details__title text-info"> Cahier des charges </h3>
-						<ul class="details__description">
-							<p>Créer une application web de séries</p>
-							<p>Utilisation de la méthode scrum</p>
-							<p>Respect des demandes du Product Owner</p>
-							<p>Maintenir un journal de bord</p>
-						</ul>
-						<h3 class="text-info">
-							Compétences acquises
-						</h3>
-						<ul class="details__description">
-							<li>Gestion d'un projet de longue durée (3 semaines)</li>
-							<li>Apprentisage en équipe de la méthode Scrum, notamment du role de Scrum Master</li>
-							<li>développement Front-End et Back-end</li>
-						</ul>
-						<h3 class="text-info">
-							Livrables
-						</h3>
-						<ul class="details__description">
-							<li>Projet respectant les demandes du client</li>
-							<li>Une application web fonctionnelle qui affiche des séries et leurs descriptions </li>
-							<li> Qui permet aux utilisateurs de suivre de nouvelles séries et d'ajouter des épisodes qu'ils ont vu.</li>
-						</ul>
-						<ul class="details__info h6">
-							<li> <b class="text-info"> Année </b>- - <span> 2023 </span></li>
-							<li><b class="text-info"> Langages</b>  - <span> PHP/Symfony/DQL/HTML/CSS/TWIG</span></li>
-							<i class="fa-brands fa-php"></i>
-							<i class="fa-brands fa-symfony"></i>
-						</ul>
-					</div>
-				</div>
-				<div class="work__card mix python">
-					<img src="img/imageCaffePierre/primaryEnergy.png" alt="imageCafePierre" class="work_img">
-					<h3 class="work_title" > Café Pierre </h3> 
-					<span class="work__button" onclick="mobOrNot()"> En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title"> Caffée Pierre</h3><br>
-						<h3 class="text-info">
-							Cahier des charges
-						</h3>
-						<ul class="details__description">
-							<li> Travailler en équipe</li>
-							<li>Traiter des données en rapport avec le changement climatique</li>
-							<li>Créer une base de données contenant des données à partir de fichier csv</li>
-							<li> Créer une interface graphique pour montrer nos résultats</li>
-						</ul>
-						<h3 class="text-info">
-							Compétences acquises
-						</h3>
-						<ul class="details__description">
-							<li>Utilisation d'une base de données avec le langage python</li>
-							<li> Apprentissage de la technologie Dash pour créer des interface graphique</li>
-							<li> Génération de cartes et de graphiques depuis des données, en python</li>
-						</ul>
-						<h3 class="text-info">
-							Livrables
-						</h3>
-						<ul class="details__description">
-							<li> Projet fonctionnel</li>
-							<li> Une interface graphique permettant de visualiser les données grâce à des graphiques et des cartes</li>
-							<li> Base de données contenant nos données </li>
-						</ul>
-						<ul class="details__info h6">
-							<li> <b class="text-info"> Année </b>- <span> 2021 </span></li>
-							<li><b class="text-info"> Langages</b> - <span> Python/Dash/SQL</span></li>
-							<i class="fa-brands fa-python"></i>
-						</ul>
-					</div>
-				</div>
-				<div class="work__card mix dns">
-					<img src="img/photoProject/dns.png" alt="image dns" class="work_img">
-					<h3 class="work_title">  Mise en place d'un serveur DNS  </h3> 
-					<span class="work__button" onclick="mobOrNot()"> En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title">  Mise en place d'un serveur DNS à l'aide d'outil de virtualisation de réseaux, Nemu</h3><br>
-						<h3 class="text-info">
-							Cahier des charges
-						</h3>
-						<ul class="details__description">
-							<li> Mettre en place un serveur DNS grâce au logiciel Nemu</li>
-							<li> Rendre un rapport détaillé de l'ensemble des étapes</li>
-						</ul>
-						<h3 class="text-info">
-							Compétences acquises
-						</h3>
-						<ul class="details__description">
-							<li>Connaissances par rapport au systeme DNS</li>
-							<li> Apprentisage du format Mardown pour écrire notre rapport</li>
-						</ul>
-						<h3 class="text-info">
-							Livrables
-						</h3>
-						<ul class="details__description">
-							<li> Un rapport détaillant explicitement l'ensemble des commandes a effectué pour mettre en place un serveur DNS sur le logiciel Nemu</li>
-						</ul>
-						<ul class="details__info h6">
-							<li> <b class="text-info"> Année </b>- <span> 2022 </span></li>
-							<li><b class="text-info"> Langages</b> - <span> Bash/Mardown</span></li>
-						</ul>
-					</div>
-				</div>
-				<div class="work__card mix c">
-					<img src="img/photoProject/miniShell.png" alt="imagePortfolio" class="work_img">
-					<h3 class="work_title"> Mini-Shell </h3>
-					<span class="work__button" onclick="mobOrNot()"> En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title"> Mini-Shell </h3><br>
-						<p class="details__description"> Création d'une version minime du Shell de Linux</p><br>
-						<h3 class="text-info">
-							Cahier des charges
-						</h3>
-						<ul class="details__description">
-							<li> Pouvoir lancer  des commandes internes</li>
-							<li> Pouvoir lancer des commandes externes</li>
-							<li> Gérer les signaux</li>
-						</ul>
-						<h3 class="text-info">
-							Compétences acquises
-						</h3>
-						<ul class="details__description">
-							<li> Développemnt dans le langage C</li>
-							<li> Gestions des signaux et des pointeurs</li>
-						</ul>
-						<h3 class="text-info">
-							Livrables
-						</h3>
-						<ul class="details__description">
-							<li> Version minime du mini-shell basé sur celui de linux</li>
-							<li> Programme qui permet d'utiliser les commandes cd,jobs, ls, pdw, mkdir</li>
-						</ul>
-						<ul class="details__info">
-							<li> <b class="text-info"> Année </b> - <span> 2022 </span></li><br>
-							<li> <b class="text-info"> Langage</b> - <span> C</span></li>
-							<i class="fa-solid fa-c"></i>
-						</ul>
-					</div>
-				</div>
-				<div class="work__card mix java">
-					<img src="img/photoProject/BloomFilter.png" alt="" class="work_img">
-					<h3 class="work_title"> Filtre de Bloom</h3>
-					<span class="work__button" onclick="mobOrNot()">En Savoir Plus 
-						<i class="uil uil-arrow-left work__button-icon"></i>
-					</span>
-					<div class="portfolio__item-details">
-						<h3 class="details__title">Filtre de Bloom</h3>
-						<h3 class="text-info">
-							Cahier des charges
-						</h3>
-						<ul class="details__description">
-							<li>Implémentation d'un filtre de bloom et d'un benchmark</li>
-							<li> Utiliser les structures de données suivantes : </li>
-							<li>
-								<ul>
-									<li> LinkedList</li>
-									<li> Tableau Simple</li>
-									<li> ArrayList</li>
-								</ul>
-							</li>
-							<li> Écrire un rapport de notre implémentation</li>
-						</ul>
-						<h3 class="text-info">
-							Compétences acquises
-						</h3>
-						<ul class="details__description">
-							<li> Découverte du concept de filtre de bloom</li>
-							<li> Découverte des tests de performance</li>
-							<li> Découverte des fonctions de hash</li>
-						</ul>
-						<h3 class="text-info">
-							Livrables
-						</h3>
-						<ul class="details__description">
-							<li>Filtre de bloom implémenter avec les 3 structures de données</li>
-							<li> Test du temps d'ajouts/verification pour x nombres, en fonction du nombre de fonctions de hash sélectionnée, pour l'ensemble des structures de données							</li>
-						</ul>
-						<ul class="details__info">
-							<li><b class="text-info"> Année </b> - <span> 2022 </span></li><br>
-							<li> <b class="text-info"> Langage</b> - <span> Java </span></li>
-							<li> <a class="text-info decoration-none" href="https://github.com/CaroleLf/BloomFilter">Dépot github</a> </b> </li>
-							<li><i class="fa-brands fa-java"></i></li>
-						</ul>
-					</div>
-				</div>
-				<div class="More">
-					<h2 class="section_title"><i class="fa-solid fa-arrow-right"></i> <a class="text-decoration-none" href="/projects/allWorks.html" {text-decoration: none; color: white;} >Tous mes projets </a> <i class="fa-solid fa-arrow-left"></i></h2>
-				</div>
-			</div>
-		</section>
-		<div class="portfolio__popup">
-			<div class="portfolio__popup-inner">
-				<div class="portfolio__popup-content grid">
-					<span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
-					<div class="pp__thumbnail">
-						<img src="" alt="" class="portfolio__popup-img">
-					</div>
-					<div class="portfolio__popup-info">
-							<div class="portfolio__popup-body">
-									<h3 class="details__title"></h3>
-									<p class="details__description"></p>
-									<ul class="details__info">			
-									</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</main>
-		<div id="contact" >
-			<h2 class ="section_title">Contact </h2>
-			<div class="DiversContact">
-				<div class="contactExact">
-					<h3>Mon numéro :  <a class="text-decoration-none "href="tel:+33751624217"> +33 7 51 62 42 17</a> </h3>  
-				</div><br>
-				<div class="contactExact">
-					<h3>Mon adresse-mail : <a class="text-decoration-none " href="mailto:carole.56leflohic@gmail.com"> carole.56leflohic@gmail.com</a></h3>
-				</div><br>
-				<div class="contactExact">
-					<h3> Mon Linkedin : <a class="text-decoration-none " href="https://www.linkedin.com/in/carole-le-flohic-11223a213/"> Profil </a> </h3>
-				</div>
-			</div>
-		</div>
-	<script src="https://unpkg.com/scrollreveal"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/script.js"></script>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/carole-le-flohic/" target="_blank" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/CaroleLf" target="_blank" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:carole.56leflohic@gmail.com" target="_blank" class="social-link" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            document.querySelector('.scroll-progress-bar').style.width = scrolled + '%';
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            
+            document.querySelector('.bg-shape-1').style.transform = `translateY(${rate}px)`;
+            document.querySelector('.bg-shape-2').style.transform = `translateY(${rate * 0.8}px)`;
+            document.querySelector('.bg-shape-3').style.transform = `translateY(${rate * 1.2}px)`;
+        });
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .skill-category, .contact-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+	<script src="../js/script.js"></script>		
 </body>
 </html>
